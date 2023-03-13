@@ -1,0 +1,16 @@
+{
+  "name": "token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc mint.ts & node mint"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.18.3",
+    "@metaplex-foundation/mpl-token-metadata": "^2.9.0",
+    "@solana/spl-token": "^0.3.7",
+    "@solana/web3.js": "^1.73.3"
+  }
+  
+}
